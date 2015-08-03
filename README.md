@@ -62,3 +62,5 @@ public class BootBroadcastReceiver extends BroadcastReceiver {
 <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED"></uses-permission>
 
 ```
+
+在多数情况下，要自动运行的不是有界面的程序，而是在后台运行的service。此时，就要用startService来启动相应的service了。
