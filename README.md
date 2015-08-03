@@ -25,6 +25,8 @@ public class MainActivity extends Activity {   // 收到消息启动此Activity
 
 ```
 
+BootBroadcastReceiver.java 该类派生自BroadcastReceiver，覆载方法onReceive中，检测接收到的Intent是否符合BOOT_COMPLETED，如果符合，则启动MainActivity。
+
 ```
 package com.example;
  
